@@ -1,6 +1,6 @@
 {
   "name": "get-agee",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Gives your age",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "conf": "^6.2.0",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "moment-countdown": "0.0.3"
   }
 }

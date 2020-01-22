@@ -3,6 +3,7 @@
 const pkg = require('./package.json');
 const moment = require('moment');
 const conf = require('conf');
+require('moment-countdown');
 
 const args = process.argv.slice(2);
 const config = new conf();
@@ -12,8 +13,8 @@ const print_age = () => {
     if (date === undefined) {
         go_help();
     } else {
-        const age = moment(date).fromNow().split(" ");
-        console.log('you are ' +age[0]+ ' years old.');
+        const age = moment(date).countdown().toString();
+        console.log('You are '+ age + ' old.')
     }
 }
 
