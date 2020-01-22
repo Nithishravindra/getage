@@ -24,19 +24,19 @@ const go_help = () => {
     Usage:
   
       To know your age:
-      $ getage
+      $ get-agee
   
       To set your date of birth:
-      $ getage YYYY-MM-DD (ISO Format)
+      $ get-agee YYYY-MM-DD (ISO Format)
   
       To remove previously set date of birth:
-      $ getage clear
+      $ get-agee clear
   
       To output version:
-      $ getage version|--version|-v
+      $ get-agee version|--version|-v
   
       To output this help message:
-      $ getage help|--help|-h
+      $ get-agee help|--help|-h
     `);
 }
 
