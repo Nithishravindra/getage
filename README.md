@@ -5,7 +5,7 @@ Simple CLI to know your age.
 ## Install
 
 ```
-npm i -g get-agee
+npm i -g get-your-age
 ```
 
 ## Usage
