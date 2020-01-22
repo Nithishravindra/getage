@@ -11,22 +11,22 @@ npm i -g get-agee
 ## Usage
 
 ```
-➜  ~ get-agee help
+➜  ~ get-your-age help
    
       To know your age:
-      $ get-agee
+      $ get-your-age
   
       To set your date of birth:
-      $ get-agee YYYY-MM-DD (ISO Format)
+      $ get-your-age YYYY-MM-DD (ISO Format)
   
       To remove previously set date of birth:
-      $ get-agee clear
+      $ get-your-age clear
   
       To output version:
-      $ get-agee version|--version|-v
+      $ get-your-age version|--version|-v
   
       To output this help message:
-      $ get-agee help|--help|-h
+      $ get-your-age help|--help|-h
 ```
 
 ## License

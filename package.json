@@ -1,13 +1,13 @@
 {
-  "name": "get-agee",
-  "version": "2.0.0",
+  "name": "get-your-age",
+  "version": "2.0.2",
   "description": "Gives your age",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "get-agee": "./index.js"
+    "get-your-age": "./index.js"
   },
   "author": "Nithish",
   "license": "MIT",
