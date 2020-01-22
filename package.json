@@ -1,16 +1,16 @@
 {
-  "name": "getage",
-  "version": "1.0.0",
+  "name": "get-agee",
+  "version": "1.0.1",
   "description": "Gives your age",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "getage": "./index.js"
+    "get-agee": "./index.js"
   },
   "author": "Nithish",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "conf": "^6.2.0",
     "moment": "^2.24.0"
