@@ -19,9 +19,6 @@ const print_age = () => {
 
 const go_help = () => {
     return console.log(`
-    getage - know your age.
-  
-    Usage:
   
       To know your age:
       $ get-agee

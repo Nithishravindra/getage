@@ -12,8 +12,6 @@ npm i -g get-agee
 
 ```
 ➜  ~ get-agee help
-
-      get-agee - know your age.
    
       To know your age:
       $ get-agee
