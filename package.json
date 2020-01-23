@@ -1,11 +1,8 @@
 {
   "name": "get-your-age",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "description": "Gives your age",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "get-your-age": "./index.js"
   },
@@ -15,5 +12,9 @@
     "conf": "^6.2.0",
     "moment": "^2.24.0",
     "moment-countdown": "0.0.3"
+  },
+  "devDependencies": {},
+   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

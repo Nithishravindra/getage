@@ -6,7 +6,9 @@ const conf = require('conf');
 require('moment-countdown');
 
 const args = process.argv.slice(2);
-const config = new conf();
+const config = new conf({
+    projectName: 'get-your-age'
+});
 
 const print_age = () => {
     const date = config.get('dateOfBirth')
